@@ -3,8 +3,9 @@ def main():
     while True:
         try:
             n = int(input("Type an integer: "))
+            break
         except ValueError:
-            
+            print("Please enter an integer.")
 
 
 if __name__ == "__main__":
