@@ -3,6 +3,7 @@ def main():
     while True:
         try:
             n = int(input("Type an integer: "))
+        except 
 
 
 if __name__ == "__main__":
