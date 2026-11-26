@@ -8,7 +8,7 @@ def main():
             print("Please enter an integer.")
 
     if n % 10 != 0 or n % 3 == 0:
-        print(f"{n}")
+        print(f"{n} is not divisible by 10 or divisible by 3.")
 
 
 if __name__ == "__main__":
